@@ -1,38 +1,45 @@
 # Portfólio Profissional
 
-Este projeto consiste na criação de um website de portfólio profissional responsivo e moderno, desenvolvido para a disciplina de Laboratório de Desenvolvimento de Software da PUC Minas.
+Website de portfólio profissional responsivo, desenvolvido para a disciplina de Laboratório de Desenvolvimento de Software da PUC Minas.
 
-## Integrantes:
+## Integrantes
 
-* Caio César Falinacio dos Santos
-* Luiz Fernando Cunha Maia
-* Pedro Henrique Nogueira Ferreira
+- Caio César Falinacio dos Santos
+- Luiz Fernando Cunha Maia
+- Pedro Henrique Nogueira Ferreira
 
-## Tecnologias previstas:
+## Tecnologias
 
-### Front-end:
+- HTML5
+- CSS3
+- JavaScript
+- Lucide Icons
+- Vercel (hospedagem prevista)
+- Figma (prototipagem)
 
-* HTML5
-* CSS3
-* JavaScript
-
-### Hospedagem:
-
-* Vercel
-
-### Prototipagem:
-
-* Figma
-
-## Estrutura inicial de diretórios
+## Estrutura de diretórios
 
 ```text
-portfolio-projeto/
+LABORATORIO-PORT/
 ├── assets/
-│   ├── style.css
-│   ├── main.js
-│   └── images/
-│       ├── profile.png
-│       └── projects/
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   │   └── projects/
+│   └── js/
+│       └── main.js
 ├── index.html
-└── README.md
+└── readme.md
+```
+
+As pastas `assets/images/` e `assets/images/projects/` estão preparadas para receber, respectivamente, a foto de perfil e as capturas dos projetos.
+
+## Executando localmente
+
+Abra o arquivo `index.html` no navegador ou use uma extensão de servidor local, como Live Server.
+
+## WIREFRAMES
+
+![w1](image.png)
+
+Nesse wireframe nos 
