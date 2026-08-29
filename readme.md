@@ -42,4 +42,12 @@ Abra o arquivo `index.html` no navegador ou use uma extensão de servidor local,
 
 ![w1](image.png)
 
-Nesse wireframe nos 
+Nesse wireframe nos temos a vizao inicla do portifolio,um icone com as inicias que eu coloquei como nome do sistema,o nome,cidade e uma breve descrição alem disso,temos um header mostrando todas as telas desse portifolio e tambem a tradução para o ingles
+
+![alt text](image-1.png)
+
+Nesse wireframe temos os projetos,cards com as especificações de cada projeto,nome,descriçaõ,imagem e o valor que ele gera,para melhorar o caminahemnto pelo site tambem temos um "side - bar" que deixe o sistema mais armonico e condiz com a sua identidade vizual
+
+![alt text](image-2.png)
+
+Agora na parte de experiencias temos o que seriam cursos fora da faculdade ate mesmo alguns itens que estão em projetos serve para essa area,enfim nessa parte nos temos tambem uma breve descriçaõ sobre cada projeto realizado
