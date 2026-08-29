@@ -51,3 +51,7 @@ Nesse wireframe temos os projetos,cards com as especificações de cada projeto,
 ![alt text](image-2.png)
 
 Agora na parte de experiencias temos o que seriam cursos fora da faculdade ate mesmo alguns itens que estão em projetos serve para essa area,enfim nessa parte nos temos tambem uma breve descriçaõ sobre cada projeto realizado
+
+![alt text](image-3.png)
+
+Por ultimos nos temos a parte de links e contato do portifolio,onde o usuario consegue ter acesso direto ao contato do estudante e alguns links que achei util como repositorios,postagem me linkedin etcc......Também temos um rodape com preservaçaõ de direito e o nome da minha instituição PUC Minas e a disciplina que é Laboratório de Desenvolvimento de Software
