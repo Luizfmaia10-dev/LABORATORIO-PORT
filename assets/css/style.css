@@ -13,12 +13,16 @@ body { background: var(--bg-light); color: var(--text-color); line-height: 1.6; 
 .lang-switch { white-space: nowrap; }
 .lang-switch button { min-width: 44px; min-height: 44px; background: none; border: 0; color: var(--text-muted); cursor: pointer; font-weight: 700; }
 .lang-switch button.active { color: var(--primary-color); }
+.nav-actions { display: flex; align-items: center; gap: .5rem; }
+.profile-switch { display: inline-flex; min-height: 44px; align-items: center; gap: .4rem; padding: .4rem .65rem; border: 1px solid #dbeafe; border-radius: 999px; background: #eff6ff; color: var(--primary-color); cursor: pointer; font: inherit; font-size: .85rem; font-weight: 700; }
+.profile-switch svg { width: 1rem; }
 .section { padding: 5.5rem 0 3.5rem; }
 .bg-alt { background: var(--bg-alt); }
 .section-title { margin-bottom: 3rem; color: var(--secondary-color); font-size: 2rem; text-align: center; }
 .hero-container { display: flex; flex-direction: column; align-items: center; justify-content: space-between; gap: 2rem; text-align: center; }
 .hero-text { max-width: 44rem; }
 .eyebrow { color: var(--primary-color); font-size: .875rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.profile-context { min-height: 1.4rem; margin: .3rem 0 .2rem; color: var(--text-muted); font-size: .875rem; }
 .hero-text h1 { color: var(--secondary-color); font-size: clamp(2rem,8vw,2.5rem); }
 .highlight, .company { color: var(--primary-color); }
 .hero-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-top: 1.5rem; }
@@ -55,7 +59,25 @@ body { background: var(--bg-light); color: var(--text-color); line-height: 1.6; 
 .resource-link span, .resource-link strong, .resource-link small { display: block; }
 .resource-link strong { color: var(--secondary-color); }
 .resource-link small { color: var(--text-muted); font-size: .875rem; line-height: 1.4; }
+.profile-dialog { width: min(36rem,calc(100% - 2rem)); max-height: calc(100dvh - 2rem); margin: auto; padding: 2rem; overflow-y: auto; border: 0; border-radius: 12px; background: #fff; color: var(--text-color); box-shadow: 0 24px 64px rgba(15,23,42,.3); }
+.profile-dialog::backdrop { background: rgba(15,23,42,.65); backdrop-filter: blur(3px); }
+.profile-dialog-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; }
+.profile-dialog h2 { color: var(--secondary-color); font-size: clamp(1.6rem,7vw,2rem); }
+.dialog-close { display: grid; width: 44px; height: 44px; flex: 0 0 44px; place-items: center; border: 0; background: none; color: var(--text-muted); cursor: pointer; font-size: 1.75rem; }
+.profile-options { display: grid; gap: .75rem; margin-top: 1.5rem; }
+.profile-option { display: grid; width: 100%; min-height: 5rem; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: .9rem; padding: 1rem; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; color: var(--text-color); cursor: pointer; text-align: left; transition: border-color .2s, box-shadow .2s, transform .2s; }
+.profile-option:hover, .profile-option:focus-visible { border-color: var(--primary-color); box-shadow: 0 4px 12px rgba(37,99,235,.12); transform: translateY(-2px); outline: none; }
+.profile-option > svg:first-child { color: var(--primary-color); }
+.profile-option > svg:last-child { width: 1rem; color: var(--text-muted); }
+.profile-option span, .profile-option strong, .profile-option small { display: block; }
+.profile-option strong { color: var(--secondary-color); font-size: 1rem; }
+.profile-option small { color: var(--text-muted); font-size: .875rem; line-height: 1.4; }
+.privacy-note { display: flex; align-items: flex-start; gap: .5rem; margin-top: 1.25rem; color: var(--text-muted); font-size: .8rem; }
+.privacy-note svg { width: 1rem; flex: 0 0 1rem; color: var(--primary-color); }
+body[data-profile="recruiter"] #experiencias .card:first-child { border-color: #93c5fd; box-shadow: 0 4px 12px rgba(37,99,235,.08); }
+body[data-profile="teacher"] #experiencias .card:first-child { border-color: #a5b4fc; box-shadow: 0 4px 12px rgba(79,70,229,.08); }
+body[data-profile="teacher"] .project-aeds { background: linear-gradient(135deg,#312e81,#4f46e5); }
 .footer { padding: 2rem 0; background: var(--secondary-color); color: #fff; font-size: .9rem; }
-@media (max-width: 767px) { .nav-container { flex-wrap: wrap; } .nav-menu { order: 3; width: 100%; overflow-x: auto; } .nav-menu ul { min-width: max-content; justify-content: space-between; gap: 1rem; } .nav-menu a { display: grid; min-height: 44px; align-items: center; } }
+@media (max-width: 767px) { .nav-container { flex-wrap: wrap; } .nav-actions { margin-left: auto; } .nav-menu { order: 3; width: 100%; overflow-x: auto; } .nav-menu ul { min-width: max-content; justify-content: space-between; gap: 1rem; } .nav-menu a { display: grid; min-height: 44px; align-items: center; } .profile-dialog { padding: 1.5rem; } }
 @media (min-width: 768px) { .section { padding: 6rem 0 4rem; } .hero-container { flex-direction: row; text-align: left; } .hero-buttons { justify-content: flex-start; } .timeline { padding-left: 2rem; } .timeline-dot { left: -2.6rem; } .cards-grid, .links-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; } }
