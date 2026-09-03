@@ -12,13 +12,65 @@ Website de portfólio profissional responsivo, desenvolvido para a disciplina de
 - Figma:
 https://www.figma.com/design/1i61MIS88bMN12Y7ml8MCD/Untitled?node-id=0-1&p=f
 
+- Site Hospedado:
+https://fanciful-banoffee-57aa3b.netlify.app/
+
+- GitHub:
+https://github.com/Luizfmaia10-dev
+
+- LinkedIn:
+https://www.linkedin.com/in/luiz-maia-4a1919359
+
+- Sistema NDM:
+https://github.com/Luizfmaia10-dev/NDM
+REPOSITORIO PRIVADO,por conter informações particulares
+
+- Banco POO:
+https://github.com/Luizfmaia10-dev/Sistema-Banc-rio-POO-
+
+- Projeto AEDS II:
+https://github.com/Luizfmaia10-dev/AEDS-II
+
+- Sistema de RH:
+https://www.linkedin.com/posts/luiz-maia-4a1919359_ol%C3%A1-rede-desde-agosto-2025-at%C3%A9-dezembro-activity-7453436104608768000-9ev8
+
+- Sistema para fisioterapia:
+https://www.linkedin.com/posts/luiz-maia-4a1919359_nesse-final-de-semestre-na-faculdade-tive-activity-7481733637608988672-aX1N
+
+- Projeto Patrimônio Construído:
+https://www.instagram.com/projetopatrimonioconstruido/
+
+- Extensão sobre Inteligência Artificial:
+https://www.linkedin.com/posts/gabriel-de-sousa-b3629335b_extensaetouniversitaerria-inteligaeanciaartificial-ugcPost-7471213193244311552--Od2
+
+- Trabalho de Sistemas Operacionais:
+https://www.linkedin.com/posts/luiz-maia-4a1919359_sistemasoperacionais-linguagemc-pthreads-activity-7454584396000591872-9x0Z
+
+- Workshop Vibe Coding:
+https://www.linkedin.com/posts/luiz-maia-4a1919359_tecnologia-programaaexaeto-inteligaeanciaartificial-activity-7453228233669451776-F_lA
+
+- Avaliação do MEC:
+https://www.linkedin.com/posts/luiz-maia-4a1919359_engenhariadesoftware-mec-pucminas-activity-7480658864292651009-9En1
+
+- Número de Armstrong:
+https://www.linkedin.com/posts/luiz-maia-4a1919359_github-luizfmaia10-devcalcular-numero-armstrong-activity-7454581230026711040-CQbO
+
+- WhatsApp:
+https://wa.me/5531975782389
+
+- E-mail:
+mailto:lf.cunhamaia@gmail.com
+
+- Lucide Icons — biblioteca utilizada pelo sistema:
+https://unpkg.com/lucide@latest
+
 ## Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript
 - Lucide Icons
-- Vercel (hospedagem prevista)
+- Netlify (hospedagem prevista)
 - Figma (prototipagem)
 
 ## Estrutura de diretórios
